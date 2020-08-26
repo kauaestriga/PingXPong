@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		ACEC149C24F5C8A2001CBE47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC149B24F5C8A2001CBE47 /* AppDelegate.swift */; };
-		ACEC149E24F5C8A2001CBE47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC149D24F5C8A2001CBE47 /* SceneDelegate.swift */; };
 		ACEC14A024F5C8A2001CBE47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC149F24F5C8A2001CBE47 /* ViewController.swift */; };
 		ACEC14A324F5C8A2001CBE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEC14A124F5C8A2001CBE47 /* Main.storyboard */; };
 		ACEC14A524F5C8A6001CBE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEC14A424F5C8A6001CBE47 /* Assets.xcassets */; };
 		ACEC14A824F5C8A6001CBE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEC14A624F5C8A6001CBE47 /* LaunchScreen.storyboard */; };
-		ACEC14B324F5C8A6001CBE47 /* PingXPongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC14B224F5C8A6001CBE47 /* PingXPongTests.swift */; };
-		ACEC14BE24F5C8A6001CBE47 /* PingXPongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC14BD24F5C8A6001CBE47 /* PingXPongUITests.swift */; };
+		ACEC14CC24F5EEEE001CBE47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACEC14CB24F5EEEE001CBE47 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +35,13 @@
 /* Begin PBXFileReference section */
 		ACEC149824F5C8A2001CBE47 /* PingXPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingXPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEC149B24F5C8A2001CBE47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACEC149D24F5C8A2001CBE47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ACEC149F24F5C8A2001CBE47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACEC14A224F5C8A2001CBE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACEC14A424F5C8A6001CBE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACEC14A724F5C8A6001CBE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ACEC14A924F5C8A6001CBE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACEC14AE24F5C8A6001CBE47 /* PingXPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingXPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACEC14B224F5C8A6001CBE47 /* PingXPongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingXPongTests.swift; sourceTree = "<group>"; };
-		ACEC14B424F5C8A6001CBE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACEC14B924F5C8A6001CBE47 /* PingXPongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingXPongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACEC14BD24F5C8A6001CBE47 /* PingXPongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingXPongUITests.swift; sourceTree = "<group>"; };
-		ACEC14BF24F5C8A6001CBE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEC14CB24F5EEEE001CBE47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../.Trash/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				ACEC149A24F5C8A2001CBE47 /* PingXPong */,
-				ACEC14B124F5C8A6001CBE47 /* PingXPongTests */,
-				ACEC14BC24F5C8A6001CBE47 /* PingXPongUITests */,
 				ACEC149924F5C8A2001CBE47 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,32 +91,13 @@
 			isa = PBXGroup;
 			children = (
 				ACEC149B24F5C8A2001CBE47 /* AppDelegate.swift */,
-				ACEC149D24F5C8A2001CBE47 /* SceneDelegate.swift */,
 				ACEC149F24F5C8A2001CBE47 /* ViewController.swift */,
 				ACEC14A124F5C8A2001CBE47 /* Main.storyboard */,
 				ACEC14A424F5C8A6001CBE47 /* Assets.xcassets */,
 				ACEC14A624F5C8A6001CBE47 /* LaunchScreen.storyboard */,
-				ACEC14A924F5C8A6001CBE47 /* Info.plist */,
+				ACEC14CB24F5EEEE001CBE47 /* Info.plist */,
 			);
 			path = PingXPong;
-			sourceTree = "<group>";
-		};
-		ACEC14B124F5C8A6001CBE47 /* PingXPongTests */ = {
-			isa = PBXGroup;
-			children = (
-				ACEC14B224F5C8A6001CBE47 /* PingXPongTests.swift */,
-				ACEC14B424F5C8A6001CBE47 /* Info.plist */,
-			);
-			path = PingXPongTests;
-			sourceTree = "<group>";
-		};
-		ACEC14BC24F5C8A6001CBE47 /* PingXPongUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ACEC14BD24F5C8A6001CBE47 /* PingXPongUITests.swift */,
-				ACEC14BF24F5C8A6001CBE47 /* Info.plist */,
-			);
-			path = PingXPongUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEC14CC24F5EEEE001CBE47 /* Info.plist in Resources */,
 				ACEC14A824F5C8A6001CBE47 /* LaunchScreen.storyboard in Resources */,
 				ACEC14A524F5C8A6001CBE47 /* Assets.xcassets in Resources */,
 				ACEC14A324F5C8A2001CBE47 /* Main.storyboard in Resources */,
@@ -261,7 +234,6 @@
 			files = (
 				ACEC14A024F5C8A2001CBE47 /* ViewController.swift in Sources */,
 				ACEC149C24F5C8A2001CBE47 /* AppDelegate.swift in Sources */,
-				ACEC149E24F5C8A2001CBE47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEC14B324F5C8A6001CBE47 /* PingXPongTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEC14BE24F5C8A6001CBE47 /* PingXPongUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

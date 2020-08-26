@@ -11,7 +11,7 @@
         <!--Partida-->
         <scene sceneID="OXE-dn-bPY">
             <objects>
-                <viewController id="B1W-CQ-tgu" sceneMemberID="viewController">
+                <viewController id="B1W-CQ-tgu" customClass="MatchViewController" customModule="PingXPong" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q8I-l7-EgW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,8 +64,11 @@
                                 <state key="normal" title="+ Ponto">
                                     <color key="titleColor" name="Secondary"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="B1W-CQ-tgu" eventType="touchUpInside" id="jzH-Uw-Ggc"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuB-zW-enI">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuB-zW-enI">
                                 <rect key="frame" x="230" y="285" width="118" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="Main"/>
@@ -73,6 +76,9 @@
                                 <state key="normal" title="+ Ponto">
                                     <color key="titleColor" name="Secondary"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="B1W-CQ-tgu" eventType="touchUpInside" id="RFQ-a4-78j"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttZ-FT-k1c">
                                 <rect key="frame" x="30" y="348" width="318" height="48"/>
@@ -82,6 +88,9 @@
                                 <state key="normal" title="Terminar Partida">
                                     <color key="titleColor" name="Main"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerMatch:" destination="B1W-CQ-tgu" eventType="touchUpInside" id="P7O-RO-E0E"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uN5-6J-ip1">
                                 <rect key="frame" x="30" y="444" width="318" height="315"/>
@@ -97,6 +106,13 @@
                         <viewLayoutGuide key="safeArea" id="YMa-Qj-Ohf"/>
                     </view>
                     <navigationItem key="navigationItem" title="Partida" id="p6T-KL-GUR"/>
+                    <connections>
+                        <outlet property="labelPlayer1" destination="SOJ-Gz-9QI" id="nSc-tr-hUO"/>
+                        <outlet property="labelPlayer2" destination="fCf-k9-Qe2" id="Wra-k2-rRv"/>
+                        <outlet property="textFieldScore1" destination="T8M-DP-AF1" id="uQ9-Vj-tNf"/>
+                        <outlet property="textFieldScore2" destination="Uxf-xo-TEQ" id="h9z-v7-5qg"/>
+                        <outlet property="textViewScores" destination="uN5-6J-ip1" id="dn2-F4-Pfu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V0V-ug-FZv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -153,6 +169,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Ping x Pong" id="3ac-Ul-wYP"/>
+                    <connections>
+                        <outlet property="textFieldPlayer1" destination="DeL-xZ-lRe" id="1K6-Kg-hZn"/>
+                        <outlet property="textFieldPlayer2" destination="0fU-kJ-frR" id="QpL-yw-ggD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

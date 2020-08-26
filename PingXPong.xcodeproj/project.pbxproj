@@ -12,25 +12,8 @@
 		ACEC14A324F5C8A2001CBE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEC14A124F5C8A2001CBE47 /* Main.storyboard */; };
 		ACEC14A524F5C8A6001CBE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEC14A424F5C8A6001CBE47 /* Assets.xcassets */; };
 		ACEC14A824F5C8A6001CBE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEC14A624F5C8A6001CBE47 /* LaunchScreen.storyboard */; };
-		ACEC14CC24F5EEEE001CBE47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACEC14CB24F5EEEE001CBE47 /* Info.plist */; };
+		ACEC14CE24F5F451001CBE47 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC14CD24F5F451001CBE47 /* MatchViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ACEC14AF24F5C8A6001CBE47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ACEC149024F5C8A2001CBE47 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACEC149724F5C8A2001CBE47;
-			remoteInfo = PingXPong;
-		};
-		ACEC14BA24F5C8A6001CBE47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ACEC149024F5C8A2001CBE47 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACEC149724F5C8A2001CBE47;
-			remoteInfo = PingXPong;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ACEC149824F5C8A2001CBE47 /* PingXPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingXPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,27 +22,11 @@
 		ACEC14A224F5C8A2001CBE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACEC14A424F5C8A6001CBE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACEC14A724F5C8A6001CBE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ACEC14AE24F5C8A6001CBE47 /* PingXPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingXPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACEC14B924F5C8A6001CBE47 /* PingXPongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingXPongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACEC14CB24F5EEEE001CBE47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../.Trash/Info.plist; sourceTree = "<group>"; };
+		ACEC14CD24F5F451001CBE47 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ACEC149524F5C8A2001CBE47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACEC14AB24F5C8A6001CBE47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACEC14B624F5C8A6001CBE47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				ACEC149824F5C8A2001CBE47 /* PingXPong.app */,
-				ACEC14AE24F5C8A6001CBE47 /* PingXPongTests.xctest */,
-				ACEC14B924F5C8A6001CBE47 /* PingXPongUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +60,7 @@
 				ACEC14A124F5C8A2001CBE47 /* Main.storyboard */,
 				ACEC14A424F5C8A6001CBE47 /* Assets.xcassets */,
 				ACEC14A624F5C8A6001CBE47 /* LaunchScreen.storyboard */,
-				ACEC14CB24F5EEEE001CBE47 /* Info.plist */,
+				ACEC14CD24F5F451001CBE47 /* MatchViewController.swift */,
 			);
 			path = PingXPong;
 			sourceTree = "<group>";
@@ -120,42 +85,6 @@
 			productReference = ACEC149824F5C8A2001CBE47 /* PingXPong.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ACEC14AD24F5C8A6001CBE47 /* PingXPongTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACEC14C524F5C8A6001CBE47 /* Build configuration list for PBXNativeTarget "PingXPongTests" */;
-			buildPhases = (
-				ACEC14AA24F5C8A6001CBE47 /* Sources */,
-				ACEC14AB24F5C8A6001CBE47 /* Frameworks */,
-				ACEC14AC24F5C8A6001CBE47 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACEC14B024F5C8A6001CBE47 /* PBXTargetDependency */,
-			);
-			name = PingXPongTests;
-			productName = PingXPongTests;
-			productReference = ACEC14AE24F5C8A6001CBE47 /* PingXPongTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ACEC14B824F5C8A6001CBE47 /* PingXPongUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACEC14C824F5C8A6001CBE47 /* Build configuration list for PBXNativeTarget "PingXPongUITests" */;
-			buildPhases = (
-				ACEC14B524F5C8A6001CBE47 /* Sources */,
-				ACEC14B624F5C8A6001CBE47 /* Frameworks */,
-				ACEC14B724F5C8A6001CBE47 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACEC14BB24F5C8A6001CBE47 /* PBXTargetDependency */,
-			);
-			name = PingXPongUITests;
-			productName = PingXPongUITests;
-			productReference = ACEC14B924F5C8A6001CBE47 /* PingXPongUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,14 +97,6 @@
 				TargetAttributes = {
 					ACEC149724F5C8A2001CBE47 = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					ACEC14AD24F5C8A6001CBE47 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = ACEC149724F5C8A2001CBE47;
-					};
-					ACEC14B824F5C8A6001CBE47 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = ACEC149724F5C8A2001CBE47;
 					};
 				};
 			};
@@ -193,8 +114,6 @@
 			projectRoot = "";
 			targets = (
 				ACEC149724F5C8A2001CBE47 /* PingXPong */,
-				ACEC14AD24F5C8A6001CBE47 /* PingXPongTests */,
-				ACEC14B824F5C8A6001CBE47 /* PingXPongUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,24 +123,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEC14CC24F5EEEE001CBE47 /* Info.plist in Resources */,
 				ACEC14A824F5C8A6001CBE47 /* LaunchScreen.storyboard in Resources */,
 				ACEC14A524F5C8A6001CBE47 /* Assets.xcassets in Resources */,
 				ACEC14A324F5C8A2001CBE47 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACEC14AC24F5C8A6001CBE47 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACEC14B724F5C8A6001CBE47 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,39 +136,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEC14CE24F5F451001CBE47 /* MatchViewController.swift in Sources */,
 				ACEC14A024F5C8A2001CBE47 /* ViewController.swift in Sources */,
 				ACEC149C24F5C8A2001CBE47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACEC14AA24F5C8A6001CBE47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACEC14B524F5C8A6001CBE47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ACEC14B024F5C8A6001CBE47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ACEC149724F5C8A2001CBE47 /* PingXPong */;
-			targetProxy = ACEC14AF24F5C8A6001CBE47 /* PBXContainerItemProxy */;
-		};
-		ACEC14BB24F5C8A6001CBE47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ACEC149724F5C8A2001CBE47 /* PingXPong */;
-			targetProxy = ACEC14BA24F5C8A6001CBE47 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ACEC14A124F5C8A2001CBE47 /* Main.storyboard */ = {
@@ -434,86 +312,6 @@
 			};
 			name = Release;
 		};
-		ACEC14C624F5C8A6001CBE47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PingXPongTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.PingXPongTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingXPong.app/PingXPong";
-			};
-			name = Debug;
-		};
-		ACEC14C724F5C8A6001CBE47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PingXPongTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.PingXPongTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingXPong.app/PingXPong";
-			};
-			name = Release;
-		};
-		ACEC14C924F5C8A6001CBE47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PingXPongUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.PingXPongUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PingXPong;
-			};
-			name = Debug;
-		};
-		ACEC14CA24F5C8A6001CBE47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PingXPongUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.PingXPongUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PingXPong;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,24 +329,6 @@
 			buildConfigurations = (
 				ACEC14C324F5C8A6001CBE47 /* Debug */,
 				ACEC14C424F5C8A6001CBE47 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACEC14C524F5C8A6001CBE47 /* Build configuration list for PBXNativeTarget "PingXPongTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACEC14C624F5C8A6001CBE47 /* Debug */,
-				ACEC14C724F5C8A6001CBE47 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACEC14C824F5C8A6001CBE47 /* Build configuration list for PBXNativeTarget "PingXPongUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACEC14C924F5C8A6001CBE47 /* Debug */,
-				ACEC14CA24F5C8A6001CBE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
